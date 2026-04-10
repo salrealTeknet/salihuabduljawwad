@@ -380,14 +380,26 @@ const AdminDashboard: React.FC = () => {
                 
                 <div className="bg-slate-900 p-6 rounded-xl border border-slate-700">
                   <h3 className="text-lg font-medium text-white mb-4">Profile Image</h3>
-                  <div className="flex items-center gap-6">
-                    <img src={settings.profileImage} alt="Profile Preview" className="w-24 h-24 rounded-xl object-cover border-2 border-slate-700" />
-                    <div>
-                      <label className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg cursor-pointer transition-colors">
-                        <ImageIcon size={18} /> Upload New Image
-                        <input type="file" accept="image/*" onChange={(e) => handleFileUpload(e, (url) => setSettings({...settings, profileImage: url}))} className="hidden" />
-                      </label>
-                      <p className="text-xs text-slate-400 mt-2">Recommended: Square image, max 5MB. Image is saved locally to your browser.</p>
+                  <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
+                    <img src={settings.profileImage} alt="Profile Preview" className="w-24 h-24 rounded-xl object-cover border-2 border-slate-700 flex-shrink-0" />
+                    <div className="w-full">
+                      <label className="block text-sm font-medium text-slate-300 mb-2">Image URL (Recommended for cross-device visibility)</label>
+                      <input 
+                        type="text" 
+                        value={settings.profileImage} 
+                        onChange={e => setSettings({...settings, profileImage: e.target.value})} 
+                        className="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white mb-3"
+                        placeholder="https://imgur.com/your-image.jpg"
+                      />
+                      
+                      <div className="flex items-center gap-4">
+                        <span className="text-sm text-slate-500">OR</span>
+                        <label className="flex items-center gap-2 bg-slate-800 hover:bg-slate-700 border border-slate-600 text-white px-4 py-2 rounded-lg cursor-pointer transition-colors text-sm">
+                          <ImageIcon size={16} /> Upload from Device
+                          <input type="file" accept="image/*" onChange={(e) => handleFileUpload(e, (url) => setSettings({...settings, profileImage: url}))} className="hidden" />
+                        </label>
+                      </div>
+                      <p className="text-xs text-slate-400 mt-2">Note: Uploaded images only show on this specific device. Paste a URL (e.g., from Imgur) to show the image everywhere.</p>
                     </div>
                   </div>
                 </div>
