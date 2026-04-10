@@ -65,5 +65,13 @@ export const defaultData = {
     { title: 'Data Cleaning', description: 'Structuring messy datasets, handling missing values, and preparing data for analysis.', level: 95, color: 'bg-blue-500' },
     { title: 'Data Visualization', description: 'Choosing the right charts to tell compelling stories to stakeholders.', level: 85, color: 'bg-orange-500' },
     { title: 'Statistical Analysis', description: 'Hypothesis testing, regression analysis, correlation, and identifying trends.', level: 75, color: 'bg-teal-500' }
-  ]
+  ],
+  customContent: [] as Array<{
+    id: number;
+    title: string;
+    content: string;
+    mediaType: 'none' | 'image' | 'video';
+    mediaUrl: string;
+    readMoreUrl: string;
+  }>
 };
