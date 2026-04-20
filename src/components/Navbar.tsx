@@ -78,7 +78,7 @@ const Navbar: React.FC = () => {
               to="/dashboard-demo"
               className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-full text-sm font-semibold transition-colors shadow-md shadow-blue-600/20"
             >
-              View Dashboard Demo
+              View Dashboard
             </Link>
           </nav>
 
@@ -127,7 +127,7 @@ const Navbar: React.FC = () => {
             onClick={() => setIsMobileMenuOpen(false)}
             className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-sm font-semibold mt-2 w-11/12 text-center"
           >
-            View Dashboard Demo
+            View Dashboard
           </Link>
         </div>
       )}
