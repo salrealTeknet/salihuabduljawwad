@@ -8,34 +8,34 @@ export const defaultData = {
     experience: "1+ Year",
     description1: "Hello! I'm Salih Abduljawwad, a passionate Data Analyst with a keen eye for finding the hidden stories within numbers. My journey into data analytics is driven by curiosity and a desire to solve real-world business problems.",
     description2: "I recently completed an intensive 1-year program at Skillahead Data Analysis, where I honed my skills in data extraction, cleaning, visualization, and interpretation. During this time, I've handled a variety of projects that demonstrate my ability to work end-to-end on data pipelines.",
-    description3: "My approach combines traditional analytical rigor with modern AI tools (like Surgest AI) to accelerate insights and provide deeper, more predictive analyses than standard reporting alone.",
+    description3: "My approach combines traditional analytical rigor with modern AI tools (like Tableau +Power BI + ChatGPT + Gamma) to accelerate insights and provide deeper, more predictive analyses than standard reporting alone.",
     education: "Skillahead Data Analysis Program (1 Year)",
     experienceText: "Multiple hands-on projects & datasets"
   },
   contact: {
     email: "salihuabduljawwad.a@gmail.com",
-    phone: "+1234567890",
+    phone: "+2348122484150",
     location: "Available for remote work worldwide"
   },
   socials: {
-    linkedin: "https://linkedin.com",
-    github: "https://github.com",
+    linkedin: "www.linkedin.com/in/abduljawwad-salihu-69006723b",
+    github: "https://github.com/salrealTeknet",
     twitter: "https://twitter.com"
   },
   settings: {
-    web3formsKey: "", // Used for contact form email sending
-    profileImage: "/images/profile.jpg"
+    web3formsKey: "4176328f-b3a2-41dd-9688-19fef210fcfc", // Used for contact form email sending
+    profileImage: "/images/profileimg.jpg"
   },
   projects: [
     {
       id: 1,
-      title: 'E-Commerce Sales Performance',
-      category: 'Power BI Dashboard',
-      image: '/images/project-powerbi.jpg',
-      description: 'A comprehensive Power BI dashboard analyzing sales trends, customer demographics, and product performance for a mid-sized e-commerce retailer.',
-      tags: ['Power BI', 'DAX', 'Data Modeling'],
+      title: 'Telecommunication sale and calls analysis',
+      category: 'Excel Dashboard',
+      image: '/images/Telecom.jpg',
+      description: 'A comprehensive Excel dashboard analyzing sales trends, customer demographics, and product performance for Telecommunication company.',
+      tags: ['Excel', 'DAX', 'Data Modeling'],
       featured: true,
-      link: '/dashboard-demo'
+      link: 'https://1drv.ms/x/c/a94d71367aaf8796/IQB3wMAUBH78QpF3SBD0oTkKAeQ4T8shY5-GJA2bL0R_ZRY?e=iM8eAA'
     },
     {
       id: 2,
@@ -49,13 +49,13 @@ export const defaultData = {
     },
     {
       id: 3,
-      title: 'Customer Churn Prediction',
+      title: 'Smart Clean Laundry Bussiness Analysis',
       category: 'AI Analytics',
-      image: '/images/project-ai.jpg',
+      image: '/images/Laundry.jpg',
       description: 'Utilized Surgest AI tool to analyze customer behavior patterns and build a predictive model identifying high-risk accounts with 85% accuracy.',
       tags: ['Surgest AI', 'Predictive Analytics', 'Data Prep'],
       featured: false,
-      link: 'https://your-actual-project-link-here.com'
+      link: 'https://1drv.ms/x/c/a94d71367aaf8796/IQCk57DvoVLRS6T8d8awo4QeAbddBWsQD5-Wy0ck1h8ClU8?e=PHEy0g'
     }
   ],
   skills: [
