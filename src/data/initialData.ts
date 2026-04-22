@@ -39,17 +39,17 @@ export const defaultData = {
     },
     {
       id: 2,
-      title: 'Financial Forecasting Model',
-      category: 'Advanced Excel',
-      image: '/images/project-excel.jpg',
-      description: 'Complex financial model built in Excel using Power Query to automate data ingestion from multiple sources, featuring scenario analysis and 3-year projections.',
-      tags: ['Excel', 'Power Query', 'Financial Modeling'],
-      featured: false,
-      link: 'https://your-actual-project-link-here.com'
+      title: 'Candy Factory Performance Analysis',
+      category: 'Power BI',
+      image: '/images/CandyAnalysis.jpg',
+      description: 'This is a analysis been carry out on a coffee shop to access the financial distribution across various department , identify key performing department , and analyze the correlation between less performing departments, identify to key delimiting factors in those areas and forecast a actional result to scale up performance above 70%.',
+      tags: ['Power BI', 'Power Query', 'Financial Modeling'],
+      featured: true,
+      link: 'https://1drv.ms/x/c/a94d71367aaf8796/IQD-s8kDByIDTKamUxRHpWr5ASucXcqZ-ablutH8qjX8fdg?e=3jNNVe'
     },
     {
       id: 3,
-      title: 'Smart Clean Laundry Bussiness Analysis',
+      title: 'Smart Clean Laundry Business Analysis',
       category: 'AI Analytics',
       image: '/images/Laundry.jpg',
       description: 'Utilized Surgest AI tool to analyze customer behavior patterns and build a predictive model identifying high-risk accounts with 85% accuracy.',
