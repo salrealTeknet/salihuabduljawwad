@@ -51,11 +51,11 @@ export const defaultData = {
       id: 3,
       title: 'Smart Clean Laundry Business Analysis',
       category: 'AI Analytics',
-      image: '/images/Laundry.jpg',
+      image: '/images/Laundry1.jpg',
       description: 'Utilized Surgest AI tool to analyze customer behavior patterns and build a predictive model identifying high-risk accounts with 85% accuracy.',
       tags: ['Surgest AI', 'Predictive Analytics', 'Data Prep'],
       featured: false,
-      link: 'https://1drv.ms/x/c/a94d71367aaf8796/IQCk57DvoVLRS6T8d8awo4QeAbddBWsQD5-Wy0ck1h8ClU8?e=PHEy0g'
+      link: 'https://1drv.ms/x/c/a94d71367aaf8796/IQDLhTIsOk7hRZvyaWpDJclpAQ6omzsa6_zhjNat64Y-nAM?e=kW0U0x'
     }
   ],
   skills: [
