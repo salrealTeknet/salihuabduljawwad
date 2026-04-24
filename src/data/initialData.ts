@@ -55,7 +55,7 @@ export const defaultData = {
       description: 'Utilized Surgest AI tool to analyze customer behavior patterns and build a predictive model identifying high-risk accounts with 85% accuracy.',
       tags: ['Surgest AI', 'Predictive Analytics', 'Data Prep'],
       featured: false,
-      link: 'https://1drv.ms/x/c/a94d71367aaf8796/IQDLhTIsOk7hRZvyaWpDJclpAQ6omzsa6_zhjNat64Y-nAM?e=kW0U0x'
+      link: 'https://1drv.ms/x/c/a94d71367aaf8796/IQABbxqyr9DxT5Yus1sixB-dAZQ8O2nQDj0NUTddlnmRXlw?e=A6TDCy'
     }
   ],
   skills: [
