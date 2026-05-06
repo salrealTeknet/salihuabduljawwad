@@ -26,7 +26,7 @@ const Projects: React.FC = () => {
             to="/dashboard-demo"
             className="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 font-semibold hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
           >
-            View Interactive Demo <ExternalLink size={18} />
+            View Interactive <ExternalLink size={18} />
           </Link>
         </div>
 

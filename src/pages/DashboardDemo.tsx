@@ -51,7 +51,7 @@ const DashboardDemo: React.FC = () => {
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
           <div>
-            <Link to="/https://1drv.ms/x/c/a94d71367aaf8796/IQB3wMAUBH78QpF3SBD0oTkKAeQ4T8shY5-GJA2bL0R_ZRY?e=iM8eAA" className="inline-flex items-center gap-2 text-slate-500 hover:text-blue-600 mb-2 transition-colors">
+            <Link to="/" className="inline-flex items-center gap-2 text-slate-500 hover:text-blue-600 mb-2 transition-colors">
               <ArrowLeft size={16} /> Back to Portfolio
             </Link>
             <h1 className="text-3xl font-bold text-slate-900">Telecommunication sale and calls analysis</h1>
