@@ -64,9 +64,9 @@ export const defaultData = {
     { title: 'AI Analytics Tools', description: 'Leveraging Surgest AI and other machine learning tools for predictive analytics.', level: 80, color: 'bg-purple-500' },
     { title: 'Data Cleaning', description: 'Structuring messy datasets, handling missing values, and preparing data for analysis.', level: 95, color: 'bg-blue-500' },
     { title: 'Data Visualization', description: 'Choosing the right charts to tell compelling stories to stakeholders.', level: 85, color: 'bg-orange-500' },
-    { title: 'Statistical Analysis', description: 'Hypothesis testing, regression analysis, correlation, and identifying trends.', level: 75, color: 'bg-teal-500' }
-    { title: 'Tableau', description: 'Interactive dashboard creation, regression analysis, correlation, and identifying trends.', level: 95, color: 'bg-yellow-500' }
-    { title: 'SQL', description: 'Data query and linking, regression analysis, Advanced formulas, and identifying trends.', level: 85, color: 'bg-purple-500' }
+    { title: 'Statistical Analysis', description: 'Hypothesis testing, regression analysis, correlation, and identifying trends.', level: 75, color: 'bg-teal-500' },
+    { title: 'Tableau', description: 'Interactive dashboard creation, regression analysis, correlation, and identifying trends.', level: 95, color: 'bg-yellow-500' },
+    { title: 'SQL', description: 'Data query and linking, regression analysis, Advanced formulas, and identifying trends.', level: 85, color: 'bg-purple-500' },
 
   ],
   customContent: [] as Array<{
