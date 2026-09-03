@@ -1,16 +1,23 @@
 export const defaultData = {
   hero: {
-    name: "Salih Abduljawwad",
-    title: "Data Analyst & Insight Engineer",
-    description: "I transform raw data into compelling stories and actionable insights. Trained at Skillahead Data Analysis, I build dashboards that drive business decisions using Excel, Power BI, and AI tools."
-  },
-  about: {
-    experience: "1+ Year",
-    description1: "Hello! I'm Salih Abduljawwad, a passionate Data Analyst with a keen eye for finding the hidden stories within numbers. My journey into data analytics is driven by curiosity and a desire to solve real-world business problems.",
-    description2: "I recently completed an intensive 1-year program at Skillahead Data Analysis, where I honed my skills in data extraction, cleaning, visualization, and interpretation. During this time, I've handled a variety of projects that demonstrate my ability to work end-to-end on data pipelines.",
-    description3: "My approach combines traditional analytical rigor with modern AI tools (like Tableau +Power BI + ChatGPT + Gamma) to accelerate insights and provide deeper, more predictive analyses than standard reporting alone.",
-    education: "Skillahead Data Analysis Program (1 Year)",
-    experienceText: "Multiple hands-on projects & datasets"
+    name: "Salihu Abduljawwad",
+
+      title: "Operations & Data Analytics Professional",
+
+      description: "I combine 5+ years of professional experience in operations, administration, and team coordination with strong expertise in data analytics and technology. I use Excel, Power BI, SQL, and AI-powered tools to turn data into actionable insights, improve operational efficiency, monitor performance, and support smarter management decisions."},
+    about: {
+    experience: "5+ Years",
+
+    description1: "Results-driven professional with over 5 years of experience in administration, operations, technology, and data-driven decision-making, with strong skills in team coordination, reporting, problem-solving, and process improvement.",
+
+    description2:"Experienced in monitoring performance, maintaining accurate records, coordinating workflows, and using Excel, SQL, and Power BI to generate insights that improve operational efficiency and service quality.",
+
+    description3: "I bring strong leadership, communication, organizational, and analytical skills to healthcare management, with a focus on efficient operations, quality service delivery, staff coordination, and continuous improvement.",
+
+    education:"Professional Training in Data Analysis & Full-Stack Software Engineering",
+
+    experienceText: "5+ Years of Professional Experience in Operations, Administration & Data-Driven Management"
+
   },
   contact: {
     email: "salihuabduljawwad.a@gmail.com",
