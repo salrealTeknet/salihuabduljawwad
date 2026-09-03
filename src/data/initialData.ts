@@ -51,7 +51,7 @@ export const defaultData = {
       id: 3,
       title: 'NeuroMuscular Physio Center',
       category: 'AI Analytics',
-      image: '/images/npc.jpg',
+      image: '/images/npc.png',
       description: 'Utilized Surgest AI tool to analyze customer behavior patterns and build a predictive model identifying high-risk accounts with 85% accuracy.',
       tags: ['Surgest AI', 'Predictive Analytics', 'Data Prep'],
       featured: false,
