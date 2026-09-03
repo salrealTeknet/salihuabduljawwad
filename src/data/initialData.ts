@@ -49,13 +49,13 @@ export const defaultData = {
     },
     {
       id: 3,
-      title: 'Smart Clean Laundry Business Analysis',
+      title: 'NeuroMuscular Physio Center',
       category: 'AI Analytics',
-      image: '/images/Laundry1.jpg',
+      image: '/images/npc.jpg',
       description: 'Utilized Surgest AI tool to analyze customer behavior patterns and build a predictive model identifying high-risk accounts with 85% accuracy.',
       tags: ['Surgest AI', 'Predictive Analytics', 'Data Prep'],
       featured: false,
-      link: 'https://1drv.ms/x/c/a94d71367aaf8796/IQABbxqyr9DxT5Yus1sixB-dAZQ8O2nQDj0NUTddlnmRXlw?e=A6TDCy'
+      link: 'https://npc-murex-nine.vercel.app/'
     }
   ],
   skills: [
